@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,rgb(120, 69, 10) 40%,rgb(79, 38, 10) 45%);
+    background-size: cover;
+}
+
+.topo{
+    background-color:rgba(207, 212, 216, 0.291);
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.topo nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo nav h2{
+    padding-left: 120px;
+    color: white;
+}
+
+.topo nav h2 a{
+    text-decoration: none;
+    color: rgb(255, 201, 93);
+}
+
+.topo nav ul{
+    list-style: none;
+    display: inline-flex;
+    padding-right: 120px;
+}
+
+.topo nav li{
+    padding: 15px;
+}
+
+.topo nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.topo nav li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 201, 93);
+}
+
+.corpo-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.texto-Eu{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.texto-Eu h3{
+    font-size: 25px;
+    color: rgb(216, 214, 214);
+    padding-left: 17px;
+}
+
+.texto-Eu h1{
+    font-size: 55px;
+    color: rgb(216, 214, 214);
+}
+
+.texto-Eu h2{
+    font-size: 25px;
+    color: rgb(216, 214, 214);
+}
+
+.texto-Eu button{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(120, 69, 10);
+    border: none;
+    margin-top: 20px;
+    text-shadow: beige;
+}
+
+.texto-Eu button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(216, 214, 214);
+}
+
+.imagem{
+    width: 50%;
+}
+
+.imagem img{
+    width: 55%;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    border-bottom: 15px solid rgb(255, 255, 255);
+    box-shadow: 2px 3px 3px rgb(255, 255, 255);
+   
+}
+
+.imagem img:hover{
+        background-color: rgb(120, 69, 10);
+        transform: scaleX(-1);
+}
+
+.corpo-2{
+background-color: rgb(53, 33, 9);
+position: relative;
+align-items: center;
+}
+
+.sobre{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.imag img{
+    width: 75%;
+    height: 368px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    border-left: 15px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: .8s ease;
+    cursor: pointer;
+}
+
+.imag img:hover{
+    background-color: rgb(203, 203, 203);
+    transform: scaleX(-1);
+}
+
+
+.texto-sobre{
+    align-items: center;
+    margin-right: 190px;
+    margin-top: 65px;
+}
+
+.texto-sobre h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.texto-sobre p{
+    color: rgb(216, 214, 214);
+    margin-bottom: 15px;    
+    font-size: 21px;
+    text-align: justify;
+}
+
+.corpo-3{
+    align-items: center;
+    background-color: rgb(90, 67, 39);
+    padding: 20px;
+    justify-content: center;
+}
+
+.sobre-projetos{
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-projetos h1{
+    color: #fff;
+    font-family: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+   
+}
+
+.card-projetos{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+.card-1{
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+.botao-ver{
+    align-items: center;
+    margin: 0 43%;
+}
+
+.botao-ver button{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(80, 56, 28);
+    border: none;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-ver button a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(216, 214, 214);
+}
+
+.sub-card{
+    display: none;
+}
+
+.repositorio{
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.repositorio a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    
+   
+}
+
+.corpo-4{
+    align-items: center;
+    background-color: rgb(71, 45, 14);
+    justify-content: center;
+    padding: 20px;
+  
+}
+
+.texto-habilidade h1{
+    color: #fff;
+    font-family: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.conjunto-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.corpo-4 .cards{
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    transition: o.5s;
+
+}
+
+.corpo-4 .img img{
+    width: 100px;
+}
+
+.conjunto-cards .cards img{
+    transition: 0.5s;
+
+}
+.conjunto-cards .cards h1{
+    font-size: 2rem;
+    color: rgb(216, 214, 214);;
+}
+
+.conjunto-cards .cards .descricao{
+    padding: 20px;
+    text-align: center;
+    color: rgb(216, 214, 214);
+}
+
+.conjunto-cards .cards .descricao p{
+    transition: 0.5s;
+    color: rgb(216, 214, 214);
+}
+
+.conjunto-cards .cards .descricao a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.conjunto-cards .cards:hover{
+    background-color: rgb(121, 82, 18);
+    color: #fff;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px rgb(88, 57, 6); 
+    border-color: rgb(121, 82, 18);
+}
+
+.conjunto-cards .cards:hover img{
+    filter: invert(1);
+}
+
+.conjunto-cards .cards .descricao p{
+    color: rgb(216, 214, 214);
+}
+
+.conjunto-cards .cards .descricao a{
+    color: black;
+    background-color: #fff;
+}
+
+.corpo-5{
+    background-color: rgb(90, 67, 39);
+    display: flex;
+   justify-content: space-between;
+}
+
+.midias-sociais{
+    position: relative;
+    padding: 10px;
+}
+
+.icones-1{
+    display: flex;
+        
+}
+
+.icones-1 img{
+    width: 4%;
+    padding: 5px;
+}
+
+.contactos{
+    align-items: center;
+    margin-left: 190px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.icones-1{
+   
+    margin-right: 190px;
+    padding-left: 160px;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+
+.icones-1 img{
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
